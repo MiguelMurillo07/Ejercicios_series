@@ -79,6 +79,22 @@ for i in range(1, 11):
 s = s.rstrip(",") 
 print(s)
 
+
+
+# Serie para determinar si un número es primo.
+
+n = int(input("Digite la cantidad de números a evaluar: "))
+w = 0
+for i in range(2, n-1): 
+    d = (n%i) 
+    if d == 0: 
+        w = 1      
+      
+if w == 0:
+    print("Es primo")
+else:
+    print("No primo")
+
 # Serie para determinar los primeros 100 números de una lista.
 n = int(input("Digite la cantidad de números a evaluar: "))
 
