@@ -85,7 +85,7 @@ print(s)
 
 n = int(input("Digite la cantidad de números a evaluar: "))
 w = 0
-for i in range(2, n-1): 
+for i in range(2, n): 
     d = (n%i) 
     if d == 0: 
         w = 1      
